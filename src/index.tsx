@@ -1,11 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import HomePage from "./page/HomePage";
 
 export default function App(): JSX.Element {
   return (
-    <div>
-      HELLO
-    </div>
+    <HomePage />
   )
 }
 
